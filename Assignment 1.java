@@ -1,10 +1,10 @@
 package student;
 
 /**
-* This is a class to define the necessary attributes and methods to conceptualize a "Student"
-* The spepcific tasks are:
-*Md.shariful islam mubin
-* @15/10/16 (a version number or a date)
+* THIS IS A CLASS TO DEFINE THE NECESSARY ATTRIBUTES AND METHODS TO CONCEPTUALIZE A "STUDENT"
+* THE SPEPCIFIC TASKS ARE:
+* MD.SHARIFUL ISLAM MUBIN
+* @15/10/16 (A VERSION NUMBER OR A DATE)
 */
 import java.util.Scanner;
 import java.io.*;
@@ -13,14 +13,14 @@ import java.io.*;
 public class Student {
 
 Scanner input = new Scanner(System.in);
-// Declare the important attributes of a student. For example:
-//1.Id
-//2. Name
-//3. Department
-//4. University
-//5. GPAs in various terms (Multidimensional arrays)
-//6. subjects for Current terms
-//7. Credits and grades of Current Terms (Multidimmentional Array)
+// DECLARE THE IMPORTANT ATTRIBUTES OF A STUDENT. FOR EXAMPLE:
+//1.ID
+//2. NAME
+//3. DEPARTMENT
+//4. UNIVERSITY
+//5. GPAS IN VARIOUS TERMS (MULTIDIMENSIONAL ARRAYS)
+//6. SUBJECTS FOR CURRENT TERMS
+//7. CREDITS AND GRADES OF CURRENT TERMS (MULTIDIMMENTIONAL ARRAY)
 
 int id;
 String name;
@@ -31,7 +31,7 @@ double[][][] CnG = new double[8][5][5];
 double CGPA;
 
 /**
-* Define a constructor that initilize the default properties of the Student
+* DEFINE A CONSTRUCTOR THAT INITILIZE THE DEFAULT PROPERTIES OF THE STUDENT
 */
 public Student(int Id,String Name,String department,String university)
 {
@@ -41,9 +41,9 @@ Department = department;
 University = university ;
 }
 
-/**
-* Define a method to print the students details.
-*/
+	/**
+	* DEFINE A METHOD TO PRINT THE STUDENTS DETAILS.
+	*/
 public void studentDetailsById(int id)
 {
 //write your code here
@@ -95,15 +95,15 @@ public void updateStudentById(int id)
 
 
 /**
-* Define a method to compute the GPA from the given Credits and Grades of all the subjects
+* DEFINE A METHOD TO COMPUTE THE GPA FROM THE GIVEN CREDITS AND GRADES OF ALL THE SUBJECTS
 */
 
-//i got confused in this calculations.
+//I GOT CONFUSED IN THIS CALCULATIONS.
 
 
 /**
-* After performing required operations on each student, save the information to a file. Use File and PrintWriter Class.
-* use as many arguments as required.
+* AFTER PERFORMING REQUIRED OPERATIONS ON EACH STUDENT, SAVE THE INFORMATION TO A FILE. USE FILE AND PRINTWRITER CLASS.
+* USE AS MANY ARGUMENTS AS REQUIRED.
 *
 */
 public void saveStudent()
@@ -112,8 +112,8 @@ public void saveStudent()
 }
 
 /**
-* Create a dummy files with infromations to describe the properties of a Student object and load the data files using Java File and Scanner class.
-* use as many arguments as required.
+* CREATE A DUMMY FILES WITH INFLAMMATIONS TO DESCRIBE THE PROPERTIES OF A STUDENT OBJECT AND LOAD THE DATA FILES USING JAVA FILE AND SCANNER CLASS.
+* USE AS MANY ARGUMENTS AS REQUIRED.
 */
 public static void main(String[] args)
 {
